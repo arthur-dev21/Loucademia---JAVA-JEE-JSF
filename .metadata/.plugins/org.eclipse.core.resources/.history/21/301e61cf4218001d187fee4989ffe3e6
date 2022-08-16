@@ -1,0 +1,12 @@
+package br.com.arthur;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.faces.annotation.FacesConfig;
+import javax.faces.annotation.FacesConfig.Version;
+
+@FacesConfig(version = Version.JSF_2_3)
+// refere-se ao CDI beans 
+@ApplicationScoped
+public class Config {
+
+}
